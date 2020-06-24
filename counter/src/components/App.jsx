@@ -1,20 +1,25 @@
-import React from 'react';
+import React, { useState } from "react";
 
 function App() {
-    let count = 0;
+  const [count, setCount] = useState(0);
 
-    function increase() {
-    count++;
-    console.log(`Count= ${count}`);
-    
-        
-    }
-    return (
-        <div className="container">
-            <h1>{count}</h1>
-            <button onClick={increase}>+</button>
-        </div>
-    );
+  function decrease() {
+    setCount(count - 1);
+  }
+  function reset() {
+    setCount(0);
+  }
+  function increase() {
+    setCount(count + 1);
+  }
+  return (
+    <div className="container">
+      <h1>{count}</h1>
+      <button onClick={decrease}>-</button>
+      <button onClick={reset}>reset</button>
+      <button onClick={increase}>+</button>
+    </div>
+  );
 }
 
 export default App;
