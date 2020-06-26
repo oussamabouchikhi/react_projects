@@ -14,6 +14,17 @@ function Form(props) {
         setContact(prevValue =>  ({...prevValue, [name]: value}));
     }
 
+    const [isMouseOver, setMouseOver] = useState(false);
+    // const [isMouseOut, setMouseOut] = useState(true);
+
+    function handleMouseOver() {
+        setMouseOver(true);
+    }
+
+    function handleMouseOut() {
+        setMouseOver(false);
+    }
+
     return (
         <form className="form">
             <h1>{props.isRegistered ? "Login" : "Register"}</h1>
@@ -26,7 +37,12 @@ function Form(props) {
             {!props.isRegistered && (
                 <Input type='password' placeholder='Confirm password' />
             )}
-            <button type="submit">
+            <button 
+                type="submit"
+                style={{ backgroundColor: isMouseOver ? "black" : "white" }}
+                onMouseOver={handleMouseOver}
+                onMouseOut={handleMouseOut}
+            >
                 {props.isRegistered ? "Login" : "Register"}
             </button>
         </form>
