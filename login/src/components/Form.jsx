@@ -9,30 +9,10 @@ function Form(props) {
     });
 
     function handleChange(event) {
+        // Get inputs name & value
         const { name, value } = event.target;
-    
-        setContact(prevValue => {
-          if (name === "fName") {
-            return {
-              fName: value,
-              lName: prevValue.lName,
-              email: prevValue.email
-            };
-          } else if (name === "lName") {
-            return {
-              fName: prevValue.fName,
-              lName: value,
-              email: prevValue.email
-            };
-          } else if (name === "email") {
-            return {
-              fName: prevValue.fName,
-              lName: prevValue.lName,
-              email: value
-            };
-          }
-        });
-      }
+        setContact(prevValue =>  ({...prevValue, [name]: value}));
+    }
 
     return (
         <form className="form">
