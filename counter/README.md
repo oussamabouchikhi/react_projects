@@ -1,5 +1,5 @@
 # Counter ➖➕
-Emojis meanings app.See preview from [here](https://udyk3.csb.app/)
+Counter app.See preview from [here](https://udyk3.csb.app/)
 
 ## Usage 
 ```bash
@@ -11,3 +11,9 @@ Emojis meanings app.See preview from [here](https://udyk3.csb.app/)
 ~ npm start
 
 ```
+
+## Contributing
+Pull requests are welcome feel free to ```fork``` this repo.
+
+## License
+This project is open-sourced under the [MIT license](https://opensource.org/licenses/MIT).
