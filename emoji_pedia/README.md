@@ -1,6 +1,11 @@
 # Emojipedia 😜
 Emojis meanings app.See preview from [here](https://j1lr6.csb.app/)
 
+## Screenshots
+<p align="center">
+    <img src="../screenshots/emojipedia.JPG">
+</p>
+
 ## Usage 
 ```bash
 # Change directory to emoji_pedia folder
