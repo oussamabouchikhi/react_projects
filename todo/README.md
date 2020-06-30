@@ -1,6 +1,11 @@
 ## Login
 Todo app. See preview from [here](https://okp28.csb.app/)
 
+## Screenshots
+<p align="center">
+    <img src="../screenshots/todo.JPG">
+</p>
+
 ## Usage 
 ```bash
 # Change directory to todo folder
