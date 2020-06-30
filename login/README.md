@@ -19,3 +19,9 @@ Login/register form. See preview from [here](https://1pb6b.csb.app/)
 - React Forms
 - Changing Complex State
 - Javascript ES6 Spread Operator
+
+## Contributing
+Pull requests are welcome feel free to ```fork``` this repo.
+
+## License
+This project is open-sourced under the [MIT license](https://opensource.org/licenses/MIT).
