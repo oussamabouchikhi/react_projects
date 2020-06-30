@@ -1,6 +1,12 @@
 ## Login
 Login/register form. See preview from [here](https://1pb6b.csb.app/)
 
+## Screenshots
+<p align="center">
+    <img src="../screenshots/login.JPG">
+    <img src="../screenshots/Register.JPG">
+</p>
+
 ## Usage 
 ```bash
 # Change directory to login folder
