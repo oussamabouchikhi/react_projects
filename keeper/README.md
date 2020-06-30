@@ -1,6 +1,11 @@
 # Keeper 📒
 Google keep clone.See preview from [here](https://68ee6.csb.app/)
 
+## Screenshots
+<p align="center">
+    <img src="../screenshots/Keeper.JPG">
+</p>
+
 ## Tools & Languages
 - React
 - Materialui
