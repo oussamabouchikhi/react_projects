@@ -2,6 +2,11 @@
 Contacts app. See preview from [here](https://0woq0.csb.app/)
 [Contacts](https://0woq0.csb.app/).
 
+## Screenshots
+<p align="center">
+    <img src="../screenshots/Contact.JPG">
+</p>
+
 ## Usage 
 ```bash
 # Change directory to contacts folder
