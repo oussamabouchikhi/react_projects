@@ -1,6 +1,11 @@
 # Counter ➖➕
 Counter app.See preview from [here](https://udyk3.csb.app/)
 
+## Screenshots
+<p align="center">
+    <img src="../screenshots/Counter.JPG">
+</p>
+
 ## Usage 
 ```bash
 # Change directory to counter folder
