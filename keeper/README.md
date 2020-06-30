@@ -1,5 +1,10 @@
 # Keeper 📒
-Google keep clone.See preview from [here](https://l1pp6.csb.app/)
+Google keep clone.See preview from [here](https://68ee6.csb.app/)
+
+## Tools & Languages
+- React
+- Materialui
+- Transparent backgrounds
 
 ## Usage 
 ```bash
@@ -9,5 +14,18 @@ Google keep clone.See preview from [here](https://l1pp6.csb.app/)
 ~ npm install
 # Run app
 ~ npm start
-
 ```
+
+## Key features
+- React props
+- React Hooks - useState
+- Event Handling in React
+- Changing Complex State
+- Javascript ES6 Spread Operator
+- Make styles & animations using Material UI
+
+## Contributing
+Pull requests are welcome feel free to ```fork``` this repo.
+
+## License
+This project is open-sourced under the [MIT license](https://opensource.org/licenses/MIT).
